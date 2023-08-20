@@ -1,0 +1,102 @@
+.message-board-container {
+    margin: 40px;
+}
+
+.info-text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: grey;
+
+}
+
+.messageText {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.button {
+    margin-left: 10px;
+    border-color: rgb(245, 242, 242);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.post-button {
+    background-color: white;
+    color: black;
+}
+
+.post-button:hover {
+    background-color: #45a049;
+    color: black;
+}
+
+.delete-all-button {
+    background-color: white;
+    color: red;
+}
+
+.delete-all-button:hover {
+    background-color: #d32f2f;
+    color: black;
+}
+
+.sort-button {
+    background-color: white;
+    color: black;
+}
+
+.sort-button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.no-messages-text {
+    margin-top: 10px;
+}
+
+.message-list {
+    list-style: none;
+    padding: 0;
+}
+
+.message-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chat-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background-color: white;
+}
+
+.message-text {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: rgb(138, 125, 125);
+}
+
+.message-divider {
+    border: none;
+    border-top: 2px dotted rgba(226, 219, 219, 0.945); /* Dotted line with translucency */
+    margin: 10px 0; /* Adjust the margin as needed */
+  }
